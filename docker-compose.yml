@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  dipolar:
+    container_name: dipolar
+    build: .
+    image: local/dipolar:latest
+    ports:
+      - "8099:80"
+    restart: unless-stopped

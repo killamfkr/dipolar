@@ -1,0 +1,7 @@
+# Ignore node_modules or build artifacts (not used here, but safe)
+node_modules/
+dist/
+build/
+*.log
+*.tmp
+.DS_Store

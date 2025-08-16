@@ -1,0 +1,19 @@
+# Initialize repo
+
+git init
+
+git add .
+
+git commit -m "Initial commit: dipolar IPTV player"
+
+# Create GitHub repo from web first (name it dipolar)
+
+# Then connect your local repo:
+
+git remote add origin https://github.com/killamfkr/dipolar.git
+
+# Push to GitHub
+
+git branch -M main
+
+git push -u origin main
